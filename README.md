@@ -1,4 +1,4 @@
-##Resume Optimizer
+## Resume Optimizer
 
 A web-based tool that helps users optimize their resumes by scoring them based on structure, clarity, and relevance to a job description. Built with HTML, Tailwind CSS, and JavaScript, and deployed using GitHub Pages.
 
