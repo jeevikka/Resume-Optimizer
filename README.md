@@ -24,8 +24,8 @@ A web-based tool that helps users optimize their resumes by scoring them based o
 
 ##  Files
 
-- `index.html`: Main page structure
-- `app.js`: JavaScript logic for scoring and analysis
+- index.html: Main page structure
+- app.js: JavaScript logic for scoring and analysis
 
 ##  How It Works
 
