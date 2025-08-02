@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Resume Optimizer</title>
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 min-h-screen flex items-center justify-center">
+  <div class="w-full max-w-4xl bg-white p-6 rounded shadow-md">
+    <h1 class="text-3xl font-bold mb-6 text-center">AI Resume Optimizer</h1>
+
+    <!-- Resume Input -->
+    <div class="mb-4">
+      <label class="block font-semibold mb-1">Paste Your Resume:</label>
+      <textarea id="resumeText" class="w-full p-3 border rounded h-40" placeholder="Paste your resume here..."></textarea>
+    </div>
+
+    <!-- Job Description Input -->
+    <div class="mb-4">
+      <label class="block font-semibold mb-1">Paste Job Description:</label>
+      <textarea id="jobDesc" class="w-full p-3 border rounded h-40" placeholder="Paste job description here..."></textarea>
+    </div>
+
+    <!-- Analyze Button -->
+    <button onclick="analyzeResume()" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Analyze</button>
+
+    <!-- Output -->
+    <div class="mt-6">
+      <h2 class="text-xl font-semibold mb-2">Results:</h2>
+      <div id="resultBox" class="bg-gray-50 p-4 rounded shadow-inner text-sm"></div>
+    </div>
+  </div>
+
+  <!-- Link JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>
